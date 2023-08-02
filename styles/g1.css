@@ -1,0 +1,42 @@
+body {
+    font-family: 'Cascadia Code';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ff84d8;
+}
+
+.gelinlik-container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 700px;
+}
+
+.gelinlik-container img {
+    width: 50%; /*fotoðraf geniþliði*/
+    border-radius: 5px;
+    float: left; 
+    margin: 0px 30px 10px 0;
+}
+
+.gelinlik-bilgileri h2 {
+    color: #ff84d8;
+    font-size: 30px;
+    margin: 0 0 10px;
+}
+
+.gelinlik-bilgileri li{
+    font-size:13px;
+    color: darkslategray;
+}
+
+.gelinlik-bilgileri p {
+    color: black;
+    font-size: 15px;
+    margin: 0;
+}
